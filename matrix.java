@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class matrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,8 +14,7 @@ public class matrix {
             for (int j = 0; j < cols; j++) {
                 matrix[i][j] = sc.nextInt();
             }
-        }
-        
+        } 
         System.out.println("Matrix is:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -24,7 +22,6 @@ public class matrix {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }
