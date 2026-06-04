@@ -26,7 +26,6 @@ public class uperDigonal {
         } else {
             System.out.println("Upper diagonal not possible ");
         }
-
         sc.close();
     }
 }
