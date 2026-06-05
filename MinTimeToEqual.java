@@ -20,7 +20,6 @@ public class MinTimeToEqual {
             time += (max - a[i]);
         }
         System.out.println("Minimum time required: " + time + " seconds");
-
         sc.close();
     }
 }
