@@ -11,7 +11,6 @@ public class PairSum {
         }
         System.out.print("Enter value of k: ");
         int k = sc.nextInt();
-
         boolean found = false;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -28,7 +27,6 @@ public class PairSum {
         if (!found) {
             System.out.println("No such pair exists");
         }
-
         sc.close();
     }
 }
