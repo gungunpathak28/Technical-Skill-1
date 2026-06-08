@@ -4,7 +4,6 @@ public class matrix {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
         int rows = sc.nextInt();
-
         System.out.print("Enter number of columns: ");
         int cols = sc.nextInt();
         int sum = 0;
