@@ -25,7 +25,6 @@ public class EquilibriumPrefixIndex {
                 count++;
             }
         }
-
         System.out.println("Number of equilibrium indices: " + count);
 
         sc.close();
