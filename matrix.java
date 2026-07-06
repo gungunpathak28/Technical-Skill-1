@@ -24,3 +24,6 @@ public class matrix {
         sc.close();
     }
 }
+
+
+
