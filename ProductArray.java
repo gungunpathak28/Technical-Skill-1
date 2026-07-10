@@ -40,3 +40,4 @@ public class ProductArray {
         sc.close();
     }
 }
+
