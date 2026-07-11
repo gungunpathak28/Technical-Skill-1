@@ -25,7 +25,6 @@ public class EquilibriumIndex {
 
             leftSum += a[i];
         }
-
         System.out.println("Number of equilibrium indices: " + count);
 
         sc.close();
