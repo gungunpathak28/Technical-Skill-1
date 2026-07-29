@@ -25,3 +25,4 @@ public class SumOfFrame {
         sc.close();
     }
 }
+
