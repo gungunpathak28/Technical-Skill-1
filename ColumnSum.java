@@ -23,4 +23,3 @@ public class ColumnSum {
         sc.close();
     }
 }
-
