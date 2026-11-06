@@ -15,7 +15,6 @@ public class EquilibriumPrefixIndex {
         for (int i = 1; i < n; i++) {
             prefix[i] = prefix[i - 1] + arr[i];
         }
-
         int count = 0; 
         for (int i = 0; i < n; i++) {
             int leftSum = (i == 0) ? 0 : prefix[i - 1];
